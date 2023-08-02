@@ -4,6 +4,6 @@ public class Drone extends HoneyBee {
 
     @Override
     public String doYourJob() {
-        return "I'm protecting the colony!";        
+        return "I'm a Drone!";
     }
 }

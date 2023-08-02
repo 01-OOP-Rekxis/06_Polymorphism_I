@@ -1,12 +1,13 @@
 package com.cc.java;
 
 public class HoneyBee {
-    
+
     public String doYourJob() {
-        return "Do You job";        
+        return "I'm a HoneyBee!";
     }
 
     public String fly() {
-        return "Fly!";        
+        return "The " + this.getClass().getSimpleName() + " can fly!";
     }
+
 }
